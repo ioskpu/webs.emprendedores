@@ -1,33 +1,28 @@
 import { v4 } from 'uuid'
 import {
-	Koushikpuppala,
-	Musics_DJ,
-	IIITR,
-	Avenger,
-	Edith,
-	AvengersAssemble,
-	StudentIIITR,
-	DiscordLists100,
-	Jai,
-	Project2021,
+	Emprendedores,
+	Portfolio,
+	Quizinator,
+	Weather,
+	GameOver,
 } from '@import/image'
 
 export const PortfolioData = [
 	{
 		id: v4(),
-		title: 'Koushikpuppala',
-		subTitle: 'My Portfolio | Official Website',
-		url: 'https://koushikpuppala.com',
+		title: 'Web para Emprendedores',
+		subTitle: 'Official Website',
+		url: 'https://webs-emprendedores.vercel.app',
 		description: [
-			'My first project which I have made using Web development Basics and updated to the latest.',
-			'This is a Full Stack Project.',
-			'Front End was built using Next.js and Bootstrap.',
-			'Back End was built using Node and Express.',
-			'To store Contact messages I used MongoDB and Nodemailer to receive Contact messages.',
-			'This is an Open Source Code on GitHub, Check my Github Profile for this code.',
+			'🚀 ¡Bienvenido a Web para Emprendedores! 🚀',
+			'Somos tu espacio digital diseñado exclusivamente para inspirar y apoyar a emprendedores como tú en la emocionante travesía del mundo empresarial. 💼✨',
+			'🌐 Explora, Aprende, Triunfa: En "Web para Emprendedores", te ofrecemos una',
+			'amplia gama de recursos y conocimientos esenciales para construir y promover tu ',
+			'presencia en línea. Desde la creación de sitios web hasta estrategias efectivas de ',
+			'marketing, aquí encontrarás todo lo que necesitas para destacar en el universo digital.',
 		],
 		image: {
-			main: Koushikpuppala,
+			main: Emprendedores,
 			desktop: '',
 			mobile: '',
 		},
