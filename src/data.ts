@@ -30,8 +30,8 @@ export const PortfolioData = [
 	},
 	{
 		id: v4(),
-		title: 'Musics_DJ Bot',
-		subTitle: 'Discord Bot | Music Player',
+		title: 'Game Over',
+		subTitle: 'SPA | Catalogo de video juegos',
 		url: 'https://koushikpuppala.com/github/musics_dj',
 		description: [
 			'This is also an open-source Discord Bot which I made using discord.js and JavaScript.',
@@ -39,7 +39,7 @@ export const PortfolioData = [
 			'There are so many filter commands and playlist commands also.',
 		],
 		image: {
-			main: Musics_DJ,
+			main: GameOver,
 			desktop: '',
 			mobile: '',
 		},
@@ -47,7 +47,7 @@ export const PortfolioData = [
 	},
 	{
 		id: v4(),
-		title: 'IIIT Raichur',
+		title: 'Portfolio',
 		subTitle: 'Official Website - IIIT Raichur',
 		url: 'https://iiitr.ac.in',
 		description: [
@@ -57,7 +57,7 @@ export const PortfolioData = [
 			'In this, we have everything about our college Information, Activates etc.',
 		],
 		image: {
-			main: IIITR,
+			main: Portfolio,
 			desktop: '',
 			mobile: '',
 		},
@@ -65,8 +65,8 @@ export const PortfolioData = [
 	},
 	{
 		id: v4(),
-		title: 'Avenger Bot',
-		subTitle: 'Discord Bot | Multi-purpose',
+		title: 'Quizinator',
+		subTitle: 'App | Quiz',
 		url: 'https://koushikpuppala.com/github/avenger',
 		description: [
 			'This is one of my best Discord bots made by using discord.js and Javascript.',
@@ -75,7 +75,7 @@ export const PortfolioData = [
 			'It also comes packed with a variety of features, such as Welcome messages and farewell messages, Extensive Logging for 37 events, Slash Commands, Advanced auto-moderation, Audio filters for music plugins, Custom playlist support, Giveaways, Reaction roles, And much more! There are over 40+ settings to tweak!',
 		],
 		image: {
-			main: Avenger,
+			main: Quizinator,
 			desktop: '',
 			mobile: '',
 		},
@@ -83,8 +83,8 @@ export const PortfolioData = [
 	},
 	{
 		id: v4(),
-		title: 'E.D.I.T.H Screen Recorder',
-		subTitle: 'Windows Application | Screen Recorder',
+		title: 'Weather',
+		subTitle: 'React APP | Weather Forecast',
 		url: 'https://koushikpuppala.com/github/E.D.I.T.H-Screen-Recorder',
 		description: [
 			'This is a Screen recording Application created for our Semester Project.',
@@ -93,105 +93,13 @@ export const PortfolioData = [
 			"The recorded video will be auto-uploaded to the User's google drive if the user logged in using google.",
 		],
 		image: {
-			main: Edith,
+			main: Weather,
 			desktop: '',
 			mobile: '',
 		},
 		filter: 'filter-app',
 	},
-	{
-		id: v4(),
-		title: 'Avengers Assemble',
-		subTitle: 'Discord Bots website and dashboard',
-		url: 'https://koushikpuppala.com/github/avenger',
-		description: [
-			'This is a Discord bot website and dashboard which have 250+ commands and which is still under development.',
-			'The Frontend was built using EJS(Embedded JavaScript)',
-			'The Backend was built using Node and Express',
-			'I used MongoDB to store data of the dashboard',
-			'In this, we are using Discord Login to use the Discord Bot Dashboard and to identify the server that they can manage',
-			'It is having dashboard so that it will be easy to customize or change bot settings.',
-			'I am going to add bot hosting like pinging of websites which are hosted replit and glitch to make them 24/7 online.',
-		],
-		image: {
-			main: AvengersAssemble,
-			desktop: '',
-			mobile: '',
-		},
-		filter: 'filter-web',
-	},
-	{
-		id: v4(),
-		title: 'Students IIIT Raichur',
-		subTitle: 'Council of Students Affairs Official Website - IIIT Raichur',
-		url: 'https://students.iiitr.ac.in',
-		description: [
-			'This is the Official Website for the Council of Student Affairs of the Indian Institute of Information Technology, Raichur.',
-			'Front-end was made using Jekyll hosted on GitLab.',
-			'Backend was discord integration using express.',
-			'It is hosted on Replit.',
-			'In this we have everything about Information, Activates, Clubs that Students what to know etc.',
-		],
-		image: {
-			main: StudentIIITR,
-			desktop: '',
-			mobile: '',
-		},
-		filter: 'filter-web',
-	},
-	{
-		id: v4(),
-		title: 'Discord Developer Studios',
-		subTitle: 'Discord Lists Website',
-		url: 'https://github.com/dscdevstudios',
-		description: [
-			'This is where we can find the best discord bots and you can also add your bots, increasing the server count and it will help others to reach your discord bot.',
-			'The Frontend was built using a pug.',
-			'The Backend was built using Express and Discord Login Integration.',
-			'The Database was MongoDB.',
-		],
-		image: {
-			main: DiscordLists100,
-			desktop: '',
-			mobile: '',
-		},
-		filter: 'filter-web',
-	},
-	{
-		id: v4(),
-		title: 'Jai Goyal',
-		subTitle: 'Election Advertise Website - Jai Goyal',
-		url: 'https://vibhanshujainiiitr.github.io/jai',
-		description: [
-			'This is an very basic website made for my friend who is studying in IITH.',
-			'It was made for this election time on 2021 academic year.',
-			'It was built using basic HTML and CSS along with JavaScript. It was hosted using GitHub Pages',
-		],
-		image: {
-			main: Jai,
-			desktop: '',
-			mobile: '',
-		},
-		filter: 'filter-web',
-	},
-	{
-		id: v4(),
-		title: 'Project India 2021',
-		subTitle: 'Project India 2021 Official GitHub Organization',
-		url: 'https://github.com/Project-India-21',
-		description: [
-			"India has ~50000 Health & Wellness Centres (HWC's) up and running.",
-			'By 2022, the government plans to transform 150000 Sub Health Centres (SHC), Primary Health Centres (PHC) and Urban Primary Health Centres (UPHC) as HWC’s.',
-			'We have conceptualized an advanced way to connect HWC’s - for user accessibility, service utilization, full information, and quality control.',
-			'We are developing an application which will enable a user to locate the nearest Health and Wellness Centres and know verified details.',
-		],
-		image: {
-			main: Project2021,
-			desktop: '',
-			mobile: '',
-		},
-		filter: 'filter-open',
-	},
+	
 ]
 
 export const SkillsData = [

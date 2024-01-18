@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { toast } from 'react-toastify'
 import { useEffect } from 'react'
 import { Contact, Header, Navbar, Portfolio, Skills } from '@import/components'
-import { ProfilePic } from '@import/image'
+import { Emprendedores } from '@import/image'
 import { InterestData } from '@import/data'
 
 const Home: NextPage = () => {
@@ -34,9 +34,9 @@ const Home: NextPage = () => {
 							className='col-lg-4'
 							data-aos='fade-right'>
 							<Image
-								src={ProfilePic}
+								src={Emprendedores}
 								className='img-fluid'
-								alt='koushikpuppala'
+								alt='Emprendedores'
 							/>
 						</div>
 						<div

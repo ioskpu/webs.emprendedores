@@ -1,6 +1,6 @@
 //export { default as ProfilePic } from './Koushikpuppala.webp'
 export { default as GameOver } from './projects/gameover.webp'
-export { default as Portfolio } from './projects/porfolio.webp'
+export { default as Portfolio } from './projects/portfolio.webp'
 export { default as Quizinator } from './projects/quizinator.webp'
 export { default as Weather } from './projects/weather.webp'
 export { default as Emprendedores } from './projects/emprendedor.webp'
