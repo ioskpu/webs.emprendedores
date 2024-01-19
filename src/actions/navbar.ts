@@ -11,7 +11,7 @@ const Navbar = () => {
 	 * Word Typing Animation
 	 */
 	const options = {
-		strings: ['Student', 'Learner', 'Programmer', 'Full Stack Developer', 'Freelancer'],
+		strings: [ 'Aprendiz', 'Programador', 'Full Stack Developer', 'Freelancer'],
 		typeSpeed: 50,
 		backSpeed: 50,
 		loop: true,

@@ -12,7 +12,7 @@ const Navbar = () => {
 				<Box className='container'>
 					<Typography variant='h1'>Luis Corales</Typography>
 					<Typography variant='h2'>
-						I&apos;m a <span id='typed'></span> from Venezuela
+						Soy <span id='typed'></span>de Venezuela
 					</Typography>
 
 					<nav

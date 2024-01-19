@@ -17,7 +17,7 @@ const Portfolio = () => {
 				<div className='container'>
 					<div className='section-title'>
 						<h2>Portfolio</h2>
-						<p>My Works</p>
+						<p>Mi Trabajo</p>
 					</div>
 
 					<div className='row'>
@@ -26,12 +26,12 @@ const Portfolio = () => {
 								<li
 									data-filter='*'
 									className='filter-active'>
-									All
+									Todo
 								</li>
 								<li data-filter='.filter-web'>Web</li>
-								<li data-filter='.filter-bot'>Bots</li>
+								<li data-filter='.filter-bot'>API</li>
 								<li data-filter='.filter-app'>App</li>
-								<li data-filter='.filter-open'>Open Source</li>
+								{/* <li data-filter='.filter-open'>Open Source</li> */}
 							</ul>
 						</div>
 					</div>
