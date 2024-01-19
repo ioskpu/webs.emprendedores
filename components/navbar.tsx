@@ -10,9 +10,9 @@ const Navbar = () => {
 		<>
 			<header id='header'>
 				<Box className='container'>
-					<Typography variant='h1'>Koushik Puppala</Typography>
+					<Typography variant='h1'>Luis Corales</Typography>
 					<Typography variant='h2'>
-						I&apos;m a <span id='typed'></span> from India
+						I&apos;m a <span id='typed'></span> from Venezuela
 					</Typography>
 
 					<nav
@@ -30,7 +30,7 @@ const Navbar = () => {
 								<Link
 									className='nav-link'
 									href='#about'>
-									About
+									Acerca de
 								</Link>
 							</li>
 							<li>
@@ -44,7 +44,7 @@ const Navbar = () => {
 								<Link
 									className='nav-link'
 									href='#contact'>
-									Contact
+									Contacto
 								</Link>
 							</li>
 						</ul>

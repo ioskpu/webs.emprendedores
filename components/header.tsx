@@ -6,7 +6,7 @@ const Header = (props: HeaderProps) => {
 	const description =
 		props.description ||
 		'Analista en sistemas & full-stack developer. Trabajando siempre en soluciones reales.'
-	const canonical = `https://koushikpuppala.com${props.canonical}`
+	const canonical = `https://portfolio-ioskpu.vercel.app${props.canonical}`
 	return (
 		<Head>
 			<meta charSet='utf-8' />

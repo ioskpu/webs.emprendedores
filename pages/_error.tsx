@@ -8,7 +8,7 @@ import { ErrorStyles as styles } from '@import/styles'
 const Error: NextPage = () => {
 	return (
 		<>
-			<Header title='Koushik Puppala | Page Not Found' />
+			<Header title='Luis Corales | Page Not Found' />
 			<div className={styles._error}>
 				<div>
 					<svg

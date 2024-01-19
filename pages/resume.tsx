@@ -6,7 +6,7 @@ const Resume: NextPage = () => {
 	return (
 		<>
 			<Header
-				title='Koushik Puppala | Resume'
+				title='Luis Corales | Resume'
 				canonical='/resume'
 			/>
 			<h1
@@ -14,7 +14,7 @@ const Resume: NextPage = () => {
 					display: 'none',
 				}}>
 				Resume
-				<Link href='/'>Koushikpuppala</Link>
+				<Link href='/'>LuisCorales</Link>
 			</h1>
 			<iframe
 				style={{
