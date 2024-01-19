@@ -206,15 +206,15 @@ const Contact = () => {
 				className='contact'>
 				<Box className='container'>
 					<Box className='section-title'>
-						<Typography variant='h2'>Contact</Typography>
-						<Typography>Contact Me</Typography>
+						<Typography variant='h2'>Contacto</Typography>
+						<Typography>Contactame</Typography>
 					</Box>
 
 					<Box className='row mt-2'>
 						<Box className='col-md-6 d-flex align-items-stretch'>
 							<Box className='info-box'>
 								<i className='bx bxs-share-alt'></i>
-								<Typography variant='h3'>Social Profiles</Typography>
+								<Typography variant='h3'>Perfiles Sociales</Typography>
 								<Box className='social-links'>
 									<Link
 										href='/linkedin'
@@ -259,21 +259,21 @@ const Contact = () => {
 						<Box className='col-md-6 mt-4 mt-md-0 d-flex align-items-stretch'>
 							<Box className='info-box'>
 								<i className='bx bxs-user'></i>
-								<Typography variant='h3'>Reach Me</Typography>
+								<Typography variant='h3'>Escribeme</Typography>
 								<Typography>
 									<Link
 										href='mailto:webs.emprendedores@gmail.com'
 										target='_blank'
 										rel='noreferrer'>
-										Email Me
+										Enviar
 									</Link>
-									{' | '}
+									{/* {' | '} se comenta para pruebas
 									<Link
 										href='/skype'
 										target='_blank'
 										rel='noreferrer'>
 										Skype Call
-									</Link>
+									</Link> */}
 								</Typography>
 							</Box>
 						</Box>
@@ -290,8 +290,8 @@ const Contact = () => {
 													: inputStyle
 											}
 											variant='outlined'
-											placeholder='Your Name'
-											label='Your Name'
+											placeholder='Su nombre'
+											label='Su nombre'
 											id='name'
 											value={values.form.name}
 											onChange={handleChange}
@@ -308,8 +308,8 @@ const Contact = () => {
 													: inputStyle
 											}
 											variant='outlined'
-											placeholder='Your Email'
-											label='Your Email'
+											placeholder='Tu correo electrónico'
+											label='Tu correo electrónico'
 											id='email'
 											value={values.form.email}
 											onChange={handleChange}
@@ -327,8 +327,8 @@ const Contact = () => {
 									}
 									className='mt-3'
 									variant='outlined'
-									placeholder='Your Subject'
-									label='Your Subject'
+									placeholder='Asunto'
+									label='Asunto'
 									id='subject'
 									value={values.form.subject}
 									onChange={handleChange}
@@ -344,8 +344,8 @@ const Contact = () => {
 									}
 									className='mt-3'
 									variant='outlined'
-									placeholder='Message'
-									label='Message'
+									placeholder='Mensaje'
+									label='Mensaje'
 									id='message'
 									value={values.form.message}
 									onChange={handleChange}
@@ -357,7 +357,7 @@ const Contact = () => {
 								/>
 								<Box className='mt-4'>
 									{isSubmitting ? (
-										<Box className='loading'>Loading</Box>
+										<Box className='loading'>Cargando</Box>
 									) : (
 										<Box className='text-center'>
 											<Button
@@ -366,7 +366,7 @@ const Contact = () => {
 												disabled={isError}
 												onClick={handleSubmit}
 												startIcon={<SendOutlined />}>
-												Send Message
+												Enviar mensaje
 											</Button>
 										</Box>
 									)}
@@ -385,9 +385,9 @@ const Contact = () => {
 									sx={{
 										fontSize: '1.2rem',
 									}}>
-									You are Offline as of now.
+									Estás fuera de línea.
 								</AlertTitle>
-								Please Check your internet connection and come back to send message.
+								Consulte su conexión a Internet y regrese para enviar un mensaje.
 							</Alert>
 						)}
 					</Box>
@@ -395,7 +395,7 @@ const Contact = () => {
 			</section>
 
 			<div className='credits'>
-				Github ❤️{' '}
+				Github Hecho con Amor ❤️{' '}
 				<Link
 					href='/github/ioskpu'
 					target='_blank'
