@@ -55,13 +55,13 @@ const Navbar = () => {
 
 					<Box className='social-links'>
 						<Link
-							href='/linkedin'
+							href='/linkedin/in/lrcorales'
 							target='_blank'
 							rel='noreferrer'
 							aria-label='LinkedIn'
 							className='bi bi-linkedin'></Link>
 						<Link
-							href='/github'
+							href='/github/ioskpu'
 							target='_blank'
 							rel='noreferrer'
 							aria-label='GitHub'
