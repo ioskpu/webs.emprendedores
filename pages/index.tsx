@@ -72,8 +72,8 @@ const Home: NextPage = () => {
 											<i className='bi bi-chevron-right'></i>{' '}
 											<strong>Email:</strong>{' '}
 											<span>
-												<Link href='mailto:contact@koushikpuppala.com'>
-													contact@koushikpuppala.com
+												<Link href='mailto:webs.emprendedores@gmail.com'>
+												webs.emprendedores@gmail.com
 												</Link>
 											</span>
 										</li>
@@ -85,11 +85,11 @@ const Home: NextPage = () => {
 											<i className='bi bi-chevron-right'></i>{' '}
 											<strong>Freelance:</strong>{' '}
 											<span>
-												Available (
+												Disponible (
 												<Link
 													href='/resume'
 													className='resume-lightbox'>
-													View Resume
+													Ver CV
 												</Link>
 												)
 											</span>
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
 											<i className='bi bi-chevron-right'></i>{' '}
 											<strong>Website:</strong>{' '}
 											<span>
-												<Link href='/'>koushikpuppala.com</Link>
+												<Link href='/'>https://webs-emprendedores.vercel.app</Link>
 											</span>
 										</li>
 									</ul>
@@ -111,10 +111,9 @@ const Home: NextPage = () => {
 									<ul>
 										<li>
 											<i className='bi bi-chevron-right'></i>{' '}
-											<strong>Degree:</strong>{' '}
+											<strong>Grado:</strong>{' '}
 											<span>
-												Bachelor of Technology in Computer Science and
-												Engineering
+												Técnico Superior Universotario en Analisis de Sistemas
 											</span>
 										</li>
 									</ul>
@@ -123,10 +122,9 @@ const Home: NextPage = () => {
 									<ul>
 										<li>
 											<i className='bi bi-chevron-right'></i>{' '}
-											<strong>College:</strong>{' '}
+											<strong>Institución:</strong>{' '}
 											<span>
-												Indian Institute of Information Technology, Raichur
-												Karnataka.
+												Instituto Universitario de Tecnología Isaac Newton
 											</span>
 										</li>
 									</ul>
@@ -140,7 +138,7 @@ const Home: NextPage = () => {
 					<div
 						className='section-title'
 						data-aos='fade-right'>
-						<h2>Interests</h2>
+						<h2>Intereses</h2>
 					</div>
 
 					<div className='row'>

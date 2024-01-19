@@ -262,7 +262,7 @@ const Contact = () => {
 								<Typography variant='h3'>Reach Me</Typography>
 								<Typography>
 									<Link
-										href='mailto:contact@koushikpuppala.com'
+										href='mailto:webs.emprendedores@gmail.com'
 										target='_blank'
 										rel='noreferrer'>
 										Email Me
@@ -397,7 +397,7 @@ const Contact = () => {
 			<div className='credits'>
 				Github ❤️{' '}
 				<Link
-					href='/github/koushikpuppala'
+					href='/github/ioskpu'
 					target='_blank'
 					rel='noopener noreferrer'>
 					Source Code

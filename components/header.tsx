@@ -2,10 +2,10 @@ import Head from 'next/head'
 import { HeaderProps } from '@import/interface'
 
 const Header = (props: HeaderProps) => {
-	const title = props.title || 'Koushik Puppala | Freelancer | Computer Science Engineer'
+	const title = props.title || 'Luis Corales | Freelancer | Backend developer'
 	const description =
 		props.description ||
-		'I am a computer science engineer and full-stack developer. I am working on full stack and Discord bot projects.'
+		'Analista en sistemas & full-stack developer. Trabajando siempre en soluciones reales.'
 	const canonical = `https://koushikpuppala.com${props.canonical}`
 	return (
 		<Head>
@@ -29,16 +29,16 @@ const Header = (props: HeaderProps) => {
 				name='description'
 			/>
 			<meta
-				content='Koushik Puppala, Puppala Koushik, Koushikpuppala, Puppalakoushik'
+				content='Luis Corales, Corales Luis, ioskpu, developer'
 				name='keywords'
 			/>
 
 			<meta
-				content='Koushikpuppala'
+				content='Luis Corales'
 				name='author'
 			/>
 			<meta
-				content='English'
+				content='Español'
 				name='language'
 			/>
 			<meta
