@@ -14,16 +14,16 @@ const Contact = async (req: NextApiRequest, res: NextApiResponse) => {
 			})
 			try {
 				await mailer.sendMail({
-					from: `Admin Contact From <me@koushikpuppala.com>`,
+					from: `Admin Contact From <webs.emprendedores@gmail.com>`,
 					replyTo: `${name} <${email}>`,
-					to: 'message@koushikpuppala.com',
+					to: 'webs.emprendedores@gmail.com',
 					subject: `${name} (${email}) sent you a message`,
-					html: `<b>Subject:</b> ${subject}<br /><br /><b>Message:</b> ${message}`,
+					html: `<b>Asunto:</b> ${subject}<br /><br /><b>Mensaje:</b> ${message}`,
 				})
-				return res.status(200).json({ message: 'Message sent successfully.' })
+				return res.status(200).json({ message: 'Mensaje enviado con éxito.' })
 			} catch (error) {
 				return res.status(500).json({
-					message: 'Error in sending the message. Please Try again Later.',
+					message: 'Error al enviar el mensaje.Por favor, inténtelo de nuevo más tarde.',
 				})
 			}
 		}

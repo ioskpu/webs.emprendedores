@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 						className='section-title'
 						data-aos='fade-right'>
 						<h2>Acerca de</h2>
-						<p>Aprende más sobre mí</p>
+						<p>... más sobre mí</p>
 					</div>
 
 					<div className='row'>
