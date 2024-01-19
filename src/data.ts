@@ -32,11 +32,14 @@ export const PortfolioData = [
 		id: v4(),
 		title: 'Game Over',
 		subTitle: 'SPA | Catalogo de video juegos',
-		url: 'https://koushikpuppala.com/github/musics_dj',
+		url: 'https://game-over-nine.vercel.app/',
 		description: [
-			'This is also an open-source Discord Bot which I made using discord.js and JavaScript.',
-			'It is having so many music commands like play, pause, skip, volume settings, etc.',
-			'There are so many filter commands and playlist commands also.',
+			'Single Page Application utlizando las tecnologías: React, Redux, Node, Express y Sequelize.',
+			'- Poner en práctica recursos básicos de estilo y diseño (UX : UI).',
+			'- Afirmar y conectar los conceptos aprendidos en la carrera.',
+			'- Aprender mejores prácticas.',
+			'- Aprender y practicar el workflow de GIT.',
+			'- Utilizar y practicar testing.',
 		],
 		image: {
 			main: GameOver,
@@ -48,13 +51,12 @@ export const PortfolioData = [
 	{
 		id: v4(),
 		title: 'Portfolio',
-		subTitle: 'Official Website - IIIT Raichur',
-		url: 'https://iiitr.ac.in',
+		subTitle: 'Mi Portfolio oficial',
+		url: 'https://portfolio-ioskpu.vercel.app',
 		description: [
-			'This is the Official Website of our College Indian Institute of Information Technology Raichur.',
-			'The full website was made using Jekyll and there is no use of Backend and Database at present, Nothing about those.',
-			'It has been hosted on GitLab.',
-			'In this, we have everything about our college Information, Activates etc.',
+			'Aqui encontraras todos mis proyectos y habilidades.',
+			'Ha sido alojado en Vercel.',
+			'He utilizado tecnologias como React, Vite, Typescript y Tailwind CSS.',
 		],
 		image: {
 			main: Portfolio,
@@ -67,12 +69,10 @@ export const PortfolioData = [
 		id: v4(),
 		title: 'Quizinator',
 		subTitle: 'App | Quiz',
-		url: 'https://koushikpuppala.com/github/avenger',
+		url: 'https://opentrivia-nine.vercel.app',
 		description: [
-			'This is one of my best Discord bots made by using discord.js and Javascript.',
-			'It has more than 150+ commands and 13+ categories.',
-			'It is an open-source, fully customizable Discord bot that is constantly growing.',
-			'It also comes packed with a variety of features, such as Welcome messages and farewell messages, Extensive Logging for 37 events, Slash Commands, Advanced auto-moderation, Audio filters for music plugins, Custom playlist support, Giveaways, Reaction roles, And much more! There are over 40+ settings to tweak!',
+			'Es un juego de palabras que consume sus datos de una API',
+			
 		],
 		image: {
 			main: Quizinator,
@@ -85,12 +85,10 @@ export const PortfolioData = [
 		id: v4(),
 		title: 'Weather',
 		subTitle: 'React APP | Weather Forecast',
-		url: 'https://koushikpuppala.com/github/E.D.I.T.H-Screen-Recorder',
+		url: 'https://react-weather-app-blond.vercel.app',
 		description: [
-			'This is a Screen recording Application created for our Semester Project.',
-			'It was built using Electron, HTML, and Javascript.',
-			'This application has Google Login and Google Drive Authentication.',
-			"The recorded video will be auto-uploaded to the User's google drive if the user logged in using google.",
+			'Este proyecto esta hecho en React',
+			'Consume sus datos de una API y muestra los datos en tiempo real',
 		],
 		image: {
 			main: Weather,
@@ -106,7 +104,7 @@ export const SkillsData = [
 	{
 		id: v4(),
 		name: 'NodeJS',
-		percentage: 100,
+		percentage: 80,
 	},
 	{
 		id: v4(),
@@ -116,17 +114,17 @@ export const SkillsData = [
 	{
 		id: v4(),
 		name: 'Express',
-		percentage: 100,
+		percentage: 80,
 	},
 	{
 		id: v4(),
 		name: 'JavaScript',
-		percentage: 90,
+		percentage: 75,
 	},
 	{
 		id: v4(),
 		name: 'EJS',
-		percentage: 90,
+		percentage: 70,
 	},
 	{
 		id: v4(),
@@ -141,7 +139,7 @@ export const SkillsData = [
 	{
 		id: v4(),
 		name: 'NextJS',
-		percentage: 80,
+		percentage: 60,
 	},
 	{
 		id: v4(),

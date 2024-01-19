@@ -10,8 +10,8 @@ import { InterestData } from '@import/data'
 const Home: NextPage = () => {
 	useEffect(() => {
 		navigator.onLine
-			? toast.success('You are online!')
-			: toast.error('You are offline!', { autoClose: false })
+			? toast.success('Estas conectado!')
+			: toast.error('¡Estas desconectado!', { autoClose: false })
 	})
 
 	return (
@@ -25,8 +25,8 @@ const Home: NextPage = () => {
 					<div
 						className='section-title'
 						data-aos='fade-right'>
-						<h2>About</h2>
-						<p>Learn more about me</p>
+						<h2>Acerca de</h2>
+						<p>Aprende más sobre mí</p>
 					</div>
 
 					<div className='row'>
@@ -42,27 +42,21 @@ const Home: NextPage = () => {
 						<div
 							className='col-lg-8 pt-4 pt-lg-0 content'
 							data-aos='fade-left'>
-							<h3>Student &amp; Full Stack Developer</h3>
+							<h3>Freelance &amp; Full Stack Developer</h3>
 							<p className='fst-italic'>
-								I am pursuing my B. Tech in Computer Science and Engineering at the
-								Indian Institute of Information Technology, Raichur. As a passionate
-								full-stack web developer, I regularly work in that capacity and lead
-								my institute's Google Developer Student Clubs. Currently, I am
-								working on fascinating projects that include the creation of a
-								Discord bot and many full-stack web apps.
+								Soy un emprendedor y Full Stack Developer.
+								Apasionado por la tecnologia, me encanta la programacion.
+								Trabajando siempre para mejorar mis habilidades.
 								<br />
-								My expertise has given me a good understanding of front-end and
-								back-end technologies, allowing me to design unique, user-friendly
-								software solutions. I am careful and strive for perfection in
-								whatever I do. As I progress, I am excited to professionally apply
-								my abilities and expertise as a Full Stack Developer.
+								Mi experiencia en el mundo de la programacion, siempre me ha
+								llevado a crear cosas increibles, aprender y compartir.
 							</p>
 							<div className='row'>
 								<div className='col-lg-6 mt-2'>
 									<ul>
 										<li>
 											<i className='bi bi-chevron-right'></i>{' '}
-											<strong>Birthday:</strong> <span>23rd May 2003</span>
+											<strong>Cumpleaños:</strong> <span>27 May 1974</span>
 										</li>
 									</ul>
 								</div>
@@ -102,7 +96,7 @@ const Home: NextPage = () => {
 											<i className='bi bi-chevron-right'></i>{' '}
 											<strong>Website:</strong>{' '}
 											<span>
-												<Link href='/'>https://webs-emprendedores.vercel.app</Link>
+												<Link href='/'>webs-emprendedores.vercel.app</Link>
 											</span>
 										</li>
 									</ul>
@@ -113,7 +107,7 @@ const Home: NextPage = () => {
 											<i className='bi bi-chevron-right'></i>{' '}
 											<strong>Grado:</strong>{' '}
 											<span>
-												Técnico Superior Universotario en Analisis de Sistemas
+												Técnico Superior Universitario en Análisis de Sistemas
 											</span>
 										</li>
 									</ul>
